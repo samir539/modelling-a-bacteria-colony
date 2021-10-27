@@ -75,4 +75,4 @@ In the competitive mode, as a result of the rapid death of the majority of the b
 
 In the case that the duplicate of a bacteria inhabited the same point in space as the parent bacteria the two were treated as one in the construction of the Voronoi cell and when calculated the neighbours around certain bacteria. Therefore, a small modification was made in ‘duplicate’ method in Colony class that duplicated bacteria will be randomly placed around the original bacteria within an enough small region to make the Voronoi function work properly. The new position will not be out of the playground or from coated region to uncoated one and the effect of this modification on the total result is very small.
 
-## Analysis
+
